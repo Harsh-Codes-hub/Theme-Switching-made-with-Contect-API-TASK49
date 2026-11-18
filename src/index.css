@@ -1,1 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+}
+
+.light {
+  --text: #37322a;
+  --surface: #c8cdd5;
+  --background: #99A1AF;
+}
+
+.dark {
+  --text: #E4D8C9;
+  --surface: #1B2736;
+  --background: #101828;
+}
+
+.word-spacing {
+  word-spacing: 8px;
+}
