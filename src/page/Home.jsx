@@ -8,7 +8,7 @@ import { ThemeContext } from "../context/ThemeContext";
 const Home = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <main className={`${theme} min-h-dvh bg-(--background)`}>
+    <main className={`${theme} min-h-dvh bg-(--background) smooth`}>
       <section className="grid grid-cols-6 grid-rows-12 min-h-screen w-full gap-4 p-4 font-orbitron">
         <div className="col-span-3 row-span-6 rounded-xl p-4 bg-(--surface) text-(--text)">
           <figure
@@ -29,7 +29,7 @@ const Home = () => {
           <h3>Learn</h3>
           <h3>Create</h3>
         </div>
-        <div className="col-span-2 row-span-4 rounded-xl p-4 bg-(--surface) text-(--text)">
+        <div className="col-span-2 row-span-4 rounded-xl p-4 bg-(--surface) text-(--text) flex items-center justify-center">
           <ThemeToggle />
         </div>
         <div className="row-span-4 rounded-xl p-4 bg-(--surface) text-(--text) flex items-center justify-center text-7xl uppercase">

@@ -5,6 +5,10 @@
   --font-orbitron: "Orbitron", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .light {
   --text: #37322a;
   --surface: #c8cdd5;
@@ -19,4 +23,8 @@
 
 .word-spacing {
   word-spacing: 8px;
+}
+
+.smooth {
+  transition: all .3s ease-out;
 }
